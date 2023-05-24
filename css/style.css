@@ -180,12 +180,11 @@ ul, ol {
 	line-height: 1.5; /* 24px */
 	margin: 0 0 1.5em 0;
 }
-body, input, textarea {
-}
+
 
 a {
-  color: #454545;
-  text-decoration: none;
+	color: #454545;
+	text-decoration: none;
 }
 
 a:hover, a:active {
@@ -275,10 +274,7 @@ h2.pagetitle {
 04. Navigation
 ============================================================ */
 
-.navbar-fixed-top .container {
-/* Uncomment to make nav expand full width */
- /*	width: auto; */
-}
+
 .navbar .brand {
 	margin-left:0;
 	padding: 0;
@@ -294,9 +290,9 @@ h2.pagetitle {
 }
 .navbar .brand a:hover {
 	text-decoration: none;
- transition: color .15s linear;
- -webkit-transition: color .15s linear;
- -moz-transition: color .15s linear;
+transition: color .15s linear;
+-webkit-transition: color .15s linear;
+-moz-transition: color .15s linear;
 }
 .navbar .brand a:focus {
 	outline: none;
@@ -875,7 +871,6 @@ section#about {
 
 #tweet ul li:before {
 	font-family: 'FontAwesome';
-	speak: none;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
@@ -1721,3 +1716,19 @@ article{
 .name_mujeres{
 	padding: 2px;
 }
+
+.rating{
+	display: flex;
+	justify-content: space-between;
+}
+.star{
+	font-size: 15px;
+	color: #bbb;
+	transition: color 0.3s;
+	cursor: pointer;
+}
+.star:hover,
+.star.checked{
+	color: gold;
+}
+

@@ -9,36 +9,65 @@
     <title>NOVEDADES Y ACSESORIOS BELLITA LUHANNA</title>
     <!--link href="css/bootstrap-responsive.css" rel="stylesheet">-->
     <!-- CSS only -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CDN Bootstrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-  <link href="css/style.css" rel="stylesheet">
+  <!--CDN icons bootstrap-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <!--javascrip- fondo -->
   <script src="https://kit.fontawesome.com/a5cc7aaee5.js" crossorigin="anonymous"></script>
+  <!--icon -->
   <link  rel="icon"   href="imagenes/favicon.png" type="image/png" />
 </head>
 <body>
 
   <div class= "Contador de visitas" id="sfc78nbl7nnszjqy7nrht6awusbkf4dskua"></div><script type="text/javascript" src="https://counter10.optistats.ovh/private/counter.js?c=78nbl7nnszjqy7nrht6awusbkf4dskua&down=async" async></script><noscript><a href="https://www.contadorvisitasgratis.com" title="contador de visitas"><img src="https://counter10.optistats.ovh/private/contadorvisitasgratis.php?c=78nbl7nnszjqy7nrht6awusbkf4dskua" border="0" title="contador de visitas" alt="contador de visitas"></a></noscript>
     
-  
-  <nav class="navbar navbar-expand-lg fixed-top text-center" style="background-color: #e1f2d4;" >
-      </div class="d-none d-sm-block">
-        <div class="container-fluid ">
-          <b><a class="navbar-brand" href="#">Inicio</a></b>
-          <b><a class="navbar-brand" href="#productos"> Productos</a></b>
-          <b><a class="navbar-brand" href="#mapa">Contactáctanos</a></b>
-          <b><a class="navbar-brand" href="#somos">Quienes Somos</a></b>
-          <a class="navbar-brand" href="#">
-            <div class="col-12">
-            <img src="imagenes/LOGO.png" alt="Logo" width="75">
-            </div>
-          </a>
+  <nav class="navbar bg-body-tertiary bg-light fixed-top ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="imagenes/LOGO_para_navbar.png" alt="Logo" width="250px" class="text-center"> 
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" style="width: 20px"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">BELUAR_FAMILY</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" ></button>
         </div>
-      </nav>
-<div class="container" style="width: auto; height: 8px"></div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Productos
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#nina" style="color: rgb(102, 102, 102);">NIÑA</a></li>
+                <li><a class="dropdown-item" href="#nino" style="color: rgb(102, 102, 102);">NIÑO</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#mujer" style="color: rgb(102, 102, 102);">Mujeres</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#mapa">Contáctanos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#somos">Quienes Somos</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
 
-<div class="container" style="width: 90%; height: 90px; text-align: center;">
-      <img src="imagenes/ENCABEZADO.jpg" alt="encabezado" width="50%" >
-</div>
-
+  <div class="linea divisoria" style="width: auto; height: 50px"></div>
 
 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
   <div class="carousel-indicators">
@@ -69,36 +98,40 @@
 
 
 
-<div class="linea divisoria" style="width: auto; height: 105px"></div>
+<div class="linea divisoria" style="width: auto; height: 10px"></div>
 
 <div class="d-flex">
-  <div class="card">
-    <img src="imagenes/CLIENTE.jpg" class="card-img-top" alt="..." style="height: 69%;">
-
-    <div class="card-body">
-      <h5 class="Card-title">Creadora del negocio</h5>
-      <p class="card-text">Se caracteriza por ser muy entusiasta, optimista y emprendedora.</p>
+<div class="card" style="width: 60rem;">
+  <img src="imagenes/vinchas.jpg" class="card-img-top" alt="..." style="height: 200px;">
+  <div class="card-body">
+    <p class="card-text form-text" style="font-size: 12px;">Vinchas coloridas para tu niña, con moños en tono pastel, no lo encontrarás en otro lugar.</p>
+    <div class="rating">
+      <i class="bi bi-star-fill star"></i>
+      <i class="bi bi-star-fill star"></i>
+      <i class="bi bi-star-fill star"></i>
+      <i class="bi bi-star-fill star"></i>
+      <i class="bi bi-star-fill star"></i>
     </div>
-  
   </div>
+</div>
 
-  <div class="card" aria-hidden="true">
-      <img src="imagenes/LOGO FORMAL.jpg" class="card-img-top" alt="..."style="height: 69%;">   
+
+  <div class="card" aria-hidden="true" >
+      <img src="imagenes/LOGO FORMAL.jpg" class="card-img-top" alt="..." style="height: 50%; width: 19rem;">   
       <div class="card-body">
-        <h5 class="Card-title">MENSAJE: </h5>
-        <p class="card-text"> Nos enfrentamos a muchos obstaculos en la vida, pero es nuetra desición si nos rendimos o avanzamos. Identificaté con tigo misma, y se quien quieras ser.</p>
+        <h6 style="font-size: 15px;">Mensaje: </h6>
+        <h6 class="card-text form-text" style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 12px;"> Nos enfrentamos a muchos obstaculos en la vida, pero es nuetra desición si nos rendimos o avanzamos. Identificaté contigo misma, y se quien quieras ser.</h6>
       </div>
     
   </div> 
 
-  <div class="card" aria-hidden="true">
-    <video height="69%" controls src="Videos/SaveInsta.App - 3048530201426205571_1219217916.mp4"> </video>
-        <h5 class="card-title">Tienda en físico</h5>         
-      <div class="text-center" ><strong> Av: Aeropuerto mz B Lt 17</strong></div>
+  <div class="card" aria-hidden="true" style="width: 60rem;">
+    <video controls src="Videos/VIDEO DE TIENDA.mp4"></video>
+        <h6 style="font-size: 15px;">Tienda en físico: </h6>         
+      <div class="text-center card-text form-text" ><p style="font-family: Haettenschweiler;"> Av: Aeropuerto mz B Lt 17</sp></div>
       </div>
-    
   </div>
-</div>
+
 
 
 <div id="productos" class="linea divisoria1" style="width: auto; height: 40px"></div>
@@ -110,33 +143,15 @@
         </span></b>
       </div>
 </div>
-
-
-
-  <div class="container-fluid d-flex" >          
-      <div class="col-3">
-        <div class="dropdown">
-        <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: rgb(138, 61, 61);"> 
-          <strong>CATEGORIAS</strong>  </a>
-          <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#nina">NIÑAS</a></li>
-          <li><a class="dropdown-item" href="#nino">NIÑOS</a></li>
-            <li><a class="dropdown-item" href="#mujer">OTROS</a></li>
-            </ul>
-        </div>
-  </div>
   
-  <div class="col-1"></div>
-      
-      <div clas="col-9">
         
-        <div class="row container-fluid" style="grid-gap: 5px;">
+        <div class="text-center" style="grid-gap: 5px;">
             <div id="nina" class="navbar-fluid text-center" style="background-color:rgb(255, 189, 245); border-radius: 5px;">
               <img src="imagenes/PALABRA_NIÑA-removebg-preview.png" style="height: 40px;">
             </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niña color melocotón.png"  alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niña color melocotón.png"  alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title text-center">PIJAMA DE MELOCOTÓN</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Se caracteriza por ser muy fresco y suave con tu piel. </p>
@@ -148,8 +163,8 @@
               </div>
             </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niña, de la princesa Ariel.png" alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niña, de la princesa Ariel.png" alt="..."  style="padding: 5px; height:40%;">
               <div class="card-body">
                 <h5 class="card-title text-center">PIJAMA ARIEL</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> ¿Alguna vez haz visto algo tan maravilloso en tu vida?</p>
@@ -161,8 +176,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niña, de la princesa bella.png"  alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niña, de la princesa bella.png"  alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title text-center">PIJAMA BELLA</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> En estas noches, vive la magia de convertirte en una princesa de Disney.</p>
@@ -174,8 +189,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Ropa de invierno 1.png"  alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Ropa de invierno 1.png"  alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title text-center">ROPA DE INVIERNO</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur.</p>
@@ -187,8 +202,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Ropa de invierno 2.png"  alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Ropa de invierno 2.png"  alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">ROPA DE INVIERNO</h5>
                 <p class="card-text"style="font-family: Cascadia Code"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur.</p>
@@ -200,8 +215,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Ropa de invierno 3.png" alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Ropa de invierno 3.png" alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">ROPA DE INVIERNO</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur.</p>
@@ -213,8 +228,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de Unisex.png"  alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de Unisex.png"  alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">PIJAMA DE MIKEY MOUSE</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro aspernatur. </p>
@@ -230,8 +245,8 @@
             <div id="nino" class="navbar-fluid text-center" style="background-color:rgb(170, 201, 255);color:white;border-radius: 5px;">
               <img src="imagenes/PALABRA_NIÑO-removebg-preview.png" style="height: 40px;">
             </div>
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niño , STAR WARS.png"  alt="..."  style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niño , STAR WARS.png"  alt="..."  style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">PIJAMA STAR WARS</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> EN LA NOCHE DE OSCURIDAD ENCIENDE TU ESPADA Y CONVIERTETE EN EL PRÓXIMO DARTH VADER.</p>
@@ -243,8 +258,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niño , Scavadora.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niño , Scavadora.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">PIJAMA </h5>
                 <p class="card-text" style="font-family: Cascadia Code"> PARA LA RESISTENCIA DE LA CASA, "SOY UNA EXCABADORA, ¡HEY TIERRA, HASTA LUEGOOO!"</p>
@@ -256,8 +271,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Pijama de niño , STAR WARS 4.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Pijama de niño , STAR WARS 4.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">PIJAMA UNISEX</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cumque architecto.</p>
@@ -274,8 +289,8 @@
               <img class="name_mujeres" src="imagenes/Imagen_para_categoría_otros-sin fondo.png" style="height: 38px;">
             </div>  
           
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Blusa para mujer.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Blusa para mujer.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">Blusa-Color: negro</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cumque architecto.</p>
@@ -287,8 +302,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Blusa para mujer 2.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Blusa para mujer 2.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">Blusa-Color: negro</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cumque architecto.</p>
@@ -300,8 +315,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Blusa para mujer 3.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Blusa para mujer 3.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">Blusa-Color: negro</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cumque architecto.</p>
@@ -313,8 +328,8 @@
                 </div>
               </div>
 
-            <div class="card" style="width: 19rem;" style="display: inline-block;">
-              <img src="imagenes/Blusa para mujer 4.png" alt="..." style="padding: 5px; height: 50%;">
+            <div class="card" style="width: 17rem;" style="display: inline-block;">
+              <img src="imagenes/Blusa para mujer 4.png" alt="..." style="padding: 5px; height: 40%;">
               <div class="card-body">
                 <h5 class="card-title">Blusa-Color: negro</h5>
                 <p class="card-text" style="font-family: Cascadia Code"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos cumque architecto.</p>
@@ -344,9 +359,7 @@
 <section>
 <div class="linea divisoria" style="width: auto; height: 20px;"></div>
 <div class="container-fluid"> 
-  <div class="row">
-    <div class="col-1"></div>
-  <div class="col-4"> 
+
 <form action="https://formsubmit.co/valeryjoannc@gmail.com" method="POST">
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Nombre</label>
@@ -366,7 +379,7 @@
   </div>
   <div class="mb-3">
     <label for="exampleInputEmail1" class="form-label">Comentario</label>
-    <input type="comentaries" name="name"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <input type="text" name="name"  class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
     <div id="emailHelp" class="form-text">Compártenos tu opinión.</div>
   </div>
   <div class="mb-3 form-check">
@@ -377,7 +390,7 @@
   <button type="submit" class="btn btn-primary">ENVIAR</button>
 </form>
 </div>
-<div class="col-7">
+
   <div class="map-responsive" style="width: 100%; background-color: rgb(0, 0, 0);">
 
     <!--<iframe src="xxx" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
@@ -396,70 +409,49 @@
     </div>
   
 
-    <div class="container-fluid">
-      <div class="row">
-      <div class="col-4"> <img src="imagenes/FAMILIA.png" alt="..."></div>
-      <div class="col-8"> 
-        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;"> <strong>DATOS DE LA CREADORA </strong></h3>
-        <p style="text-align: justify; font-family: Georgia, 'Times New Roman', Times, serif;" > Ella es, Bella Luz Alvarado Vilca tiene 30 años y cuenta con dos negocios familiares. Ella afirma y es consciente de que la familia es lo más importante, por ende es una mujer luchadora que trabaja para el bienestar de la misma.</p>
-        <h5 style="font-family: Georgia, 'Times New Roman', Times, serif;"> <strong> Miembros de familia:</strong></h5> 
-        <p style="font-family: 'Times New Roman', Times, serif;"><strong> Esposo : </strong> Jharley Ibes Cárdenas Ampuero</p>
-        <p> <strong>Hijas: </strong></p>
-        <li style="font-family: 'Times New Roman', Times, serif;">Bella Ariana Cárdenas Alvarado (10 años)</li>
-        <li style="font-family: 'Times New Roman', Times, serif;">Luhanna Brunella Cárdenas Alvarado (5 años)</li>
-        <li style="font-family: 'Times New Roman', Times, serif;">Arleth Aitana Cárdenas Alvarado(2 años)</li>
-
-        <h5 style="font-family: Georgia, 'Times New Roman', Times, serif;"> <strong>Entrevista a la dueña del negocio</strong></h5>
-        <b style="text-align: justify; font-family: 'Times New Roman', Times, serif">¿Cómo se le ocurrió la idea de poner su negocio de ropas?</b>
-        <p style="text-align: justify; font-family: 'Times New Roman', Times, serif">Se me ocurrió hacer el negocio de ropas para niños ,fue para poder generar un ingreso más y de esa manera poder apoyar en el hogar.</p>
-        <b style="text-align: justify; font-family: 'Times New Roman', Times, serif">¿Cual fué su motivación para abrir el negocio?</b>
-       <p style="text-align: justify; font-family: 'Times New Roman', Times, serif"> La motivación que me impulsó a abrir el negocio fue por mis hijas, porque todo lo que se hace es para ellas.</p>
-       <b style="text-align: justify; font-family: 'Times New Roman', Times, serif">¿Cual fue su inspiración para crear el logo de la tienda?</b>
-       <b style="text-align: justify; font-family: 'Times New Roman', Times, serif">Por el nombre de mis hijas.</b>
-       <b style="text-align: justify; font-family: 'Times New Roman', Times, serif">¿Por qué decidió vender ropa para mujeres?</b>
-       <p style="text-align: justify; font-family: 'Times New Roman', Times, serif">Porque varias amistades me pedían debido a que solamente vendía ropa de niños</p>
-      </div>
-      </div>
-    </div>
+      <div class="familia"> <img src="imagenes/Familia Belua.png" alt="..."></div>
 
     <div class="container-fluid" style="width: 100%; height: 1px; background-color: rgb(116, 118, 119)"></div>
 
 <div class="footer">
     <nav class="navbar">
         <div class="container-fluid">
-            <div>
-                <div class="container-fluid">
-                    <a href="https://www.whatsapp.com/?lang=es" target="_blank">
-                    <img src="imagenes/whatsapp.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                </a>
-                <a href="https://www.facebook.com/profile.php?id=100084218593042" target="_blank">
-                    <img src="imagenes/facebook.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img src="imagenes/instagram.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                </a>
-                <a href="https://www.snapchat.com/es" target="_blank">
-                    <img src="imagenes/snapchat.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-                </a>
-                <a href="https://twitter.com/?lang=es" target="_blank">
-                  <img src="imagenes/twiter.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-              </a>
-              <a href="https://web.telegram.org/z/" target="_blank">
-                <img src="imagenes/telegram.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
-            </a>
-                </div>
-            </div>
-            <div>
+              <div>
                 <b><p>Horario de atencion:</p></b>
                 <p>Lunes a viernes de 08:00am hasta las 06:00pm</p>
                 <p>Sabado de 08:00am a 01:00pm</p>
-                
+                <div>
+                  <div class="container-fluid">
+                      <a href="https://www.whatsapp.com/?lang=es" target="_blank">
+                      <img src="imagenes/whatsapp.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                  </a>
+                  <a href="https://www.facebook.com/profile.php?id=100084218593042" target="_blank">
+                      <img src="imagenes/facebook.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                  </a>
+                  <a href="https://www.instagram.com/" target="_blank">
+                      <img src="imagenes/instagram.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                  </a>
+                  <a href="https://www.snapchat.com/es" target="_blank">
+                      <img src="imagenes/snapchat.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                  </a>
+                  <a href="https://twitter.com/?lang=es" target="_blank">
+                    <img src="imagenes/twiter.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+                </a>
+                <a href="https://web.telegram.org/z/" target="_blank">
+                  <img src="imagenes/telegram.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+              </a>
+                  </div>
+              </div>
+              <div>
+                <div>
+              </div>
             </div>
         </div>
     </nav>
   </div>
 </div>
     <!-- JavaScript Bundle with Popper -->
+    
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 <script>
@@ -482,7 +474,5 @@
     src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap">
 
     </script>
-
-
 </body>
 </html>
